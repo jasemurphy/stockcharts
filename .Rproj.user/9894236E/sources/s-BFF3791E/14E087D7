@@ -1,0 +1,27 @@
+{
+    "id": "14E087D7",
+    "path": "~/Documents/stockcharts/R/stockchartfunctions.R",
+    "project_path": "R/stockchartfunctions.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1655376141707.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "539,0",
+        "scrollLine": "518"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1655550149,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1655720806417,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,11 @@
+Package: stockcharts
+Type: Package
+Title:  Gets price data, charts it
+Version: 0.1.0
+Author: Jason Murphy
+Maintainer: Jason Murphy <jasemurphy@gmail.com>
+Description: This chart uses data drawn from Yahoo Finance to make charts 
+    inside RStudio. It can be used to compare and index stock prices
+License: n/a
+Encoding: UTF-8
+LazyData: true
