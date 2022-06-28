@@ -106,7 +106,7 @@ indexchart2 <- function(x,y){
     geom_line(show.legend = FALSE, size = 4, alpha = .2)+
     geom_text(show.legend = FALSE, aes(label = label), size  = 5.5, hjust = -.1)+
     labs(title = paste("Change in<span style = 'color:#FF0000'>", titlename1, "</span>and<span style = 'color:#0000FF'>",titlename2,"</span>over the last year."),
-         subtitle = paste("Change in prices daily.\nIndexed such that on", format(as.Date(timethen0), "%d %b '%y"), "both prices are set equal to the arbitary value of 100. \nIndexing permits easy comparison of changes since. Data: Yahoo Finance"))+
+         subtitle = paste("Change in prices daily.\nIndexed such that on", format(as.Date(timethen0), "%d %b '%y"), "both prices are set equal to the arbitrary value of 100. \nIndexing permits easy comparison of changes since. Data: Yahoo Finance"))+
     scale_color_manual(breaks = c(x,y), values = c("#FF0000", "#0000FF"))+
     theme(plot.title = element_markdown(size = 15),
           axis.title = element_blank(),
@@ -519,7 +519,7 @@ stockchart <- function(x,y, years=1, type=c("price", "index")){
         geom_line(show.legend = FALSE, size = 4, alpha = .2)+
         geom_text(show.legend = FALSE, aes(label = label), size  = 6, hjust = -.1)+
         labs(title = paste("Change in<span style = 'color:#FF0000'>", titlename1, "</span>and<span style = 'color:#0000FF'>",titlename2,"</span>since",format(as.Date(timethen0), "%d %B %Y")),
-             subtitle = paste("Change in prices daily.\nIndexed such that on", format(as.Date(timethen0), "%d %b '%y"), "both prices are set equal to the arbitary value of 100. \nIndexing permits easy comparison of changes since. Data: Yahoo Finance"))+
+             subtitle = paste("Change in prices daily.\nIndexed such that on", format(as.Date(timethen0), "%d %b '%y"), "both prices are set equal to the arbitrary value of 100. \nIndexing permits easy comparison of changes since. Data: Yahoo Finance"))+
         scale_color_manual(breaks = c(x,y), values = c("#FF0000", "#0000FF"))+
         theme(plot.title = element_markdown(size = 15),
               axis.title = element_blank(),
@@ -534,3 +534,4 @@ stockchart <- function(x,y, years=1, type=c("price", "index")){
 
 
 }
+
